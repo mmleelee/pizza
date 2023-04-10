@@ -1,0 +1,129 @@
+/* .drawer .ant-drawer-content{
+    background-color: red;
+    width: 100%;
+}
+
+@media (min-width: 768px) {
+    .drawer {
+        width: 48%;
+    }
+}
+  
+@media (min-width: 992px) {
+    .drawer {
+        width: 33%;
+    }
+} */
+.empty {
+    font-family: 'Alegreya Sans', sans-serif;
+    text-align: center;
+    margin-top: 1.5rem;
+    font-weight: 500;
+}
+
+.emptyText {
+    font-family: 'Alegreya Sans', sans-serif;
+    text-align: center;
+    width: 12.3rem;
+}
+
+.name {
+    font-family: 'Alegreya Sans', sans-serif;
+    font-weight: bold;
+    font-size: 0.875rem;
+}
+
+.title {
+    font-family: 'Alegreya Sans SC', sans-serif;
+    font-size: 0.75rem;
+}
+
+.qty {
+    font-family: 'Aleo', serif;
+    font-size: 0.8rem
+}
+
+.price {
+    font-family: 'Alegreya Sans', sans-serif;
+    font-size: 1.125rem;
+    font-weight: 500;
+}
+
+.total {
+    margin: 0;
+    font-family: 'Alegreya Sans', sans-serif;
+}
+
+.totalPrice {
+    font-size: 1.5rem;
+    font-family: 'Alegreya Sans', sans-serif;
+    font-weight: bold;
+
+}
+
+.mainTitle {
+    text-align: center;
+    margin-bottom: 0;
+    font-family: 'Charmonman', cursive;
+    font-weight: bold;
+    font-size: 1.75rem;
+}
+
+.iconDelete {
+    width: 1.75rem;
+    height: 1.75rem;
+    color: #808080CC;
+}
+
+.item {
+    display: flex;
+    align-items: center;
+    margin-bottom: 2.5rem;
+}
+
+.content {
+    flex: 8 1;
+    margin-left: 1rem;
+}
+
+.image {
+    max-width: 7rem;
+    flex: 1 1
+}
+
+.between {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.qtyWrapper {
+    width: 4.9rem;
+    display: flex;
+    justify-content: space-between;
+}
+
+.custom {
+    display: flex;
+    gap: 1.5rem;
+}
+
+.bottom {
+    composes: between;
+    margin-top: 1.5rem;
+    margin-bottom: 2.75rem;
+}
+
+.clear {
+    font-size: 0.875rem;
+    font-family: 'Alegreya Sans', sans-serif;
+    text-decoration: underline;
+    margin: 0;
+}
+
+.button {
+    width: 17.3rem;
+    height: 2.75rem;
+    margin-right: auto;
+    margin-left: auto;
+}

@@ -1,0 +1,28 @@
+.wrapper {
+
+    width: 17rem;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.image {
+    width: 100%;
+}
+
+.button {
+  width: 4.875rem;
+  height: 2rem;
+}
+
+.text {
+  font-family: 'Alegreya Sans', sans-serif;
+}
+
+/* @media (min-width: 768px) {
+
+}
+  
+  @media (min-width: 992px) {
+
+  
+} */
